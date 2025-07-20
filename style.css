@@ -1,0 +1,41 @@
+/* Styling untuk section WhatsApp */
+.whatsapp-section {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Styling untuk gambar profile */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Styling untuk tombol WhatsApp */
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #416271;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  gap: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button:hover {
+  background-color: #36505f;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
